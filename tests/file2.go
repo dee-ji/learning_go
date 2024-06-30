@@ -2,10 +2,23 @@ package main
 
 import "fmt"
 
-func slice_examples() {
+func strings() {
 	fmt.Println("#######################")
-	fmt.Println("Starting Slices section")
+	fmt.Println("Starting String section")
 	fmt.Println("#######################")
+	var s string = "Hello there"
+	var s2 string = s[4:7]
+	var s3 string = s[:5]
+	var s4 string = s[6:]
+
+	fmt.Println(s)
+	fmt.Println(s2)
+	fmt.Println(s3)
+	fmt.Println(s4)
+	fmt.Println("#######################")
+}
+
+func slices() {
 	// Example 3.1 Understanding capacity
 	var x []int
 	fmt.Println(x, len(x), cap(x))
