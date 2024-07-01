@@ -1,0 +1,6 @@
+This is a file I want to test my cat program with.
+There will be multiple lines here that will help me see what's inside this file. Maybe if I get this right I'll learn something!
+
+This would be cool if it worked. I can't wait to use Go for a real project!
+
+Signing off!!
