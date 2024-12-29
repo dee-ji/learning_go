@@ -26,4 +26,3 @@ func main() {
 	wg.Wait()
 	fmt.Println("All workers have completed.")
 }
-
